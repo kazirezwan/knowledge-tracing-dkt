@@ -1,0 +1,35 @@
+{
+  "setup": {
+    "n_skills": 12,
+    "seq_len": 60,
+    "n_train": 2400,
+    "n_test": 600,
+    "test_correct_rate": 0.5649
+  },
+  "test": {
+    "global_mean": {
+      "auc": 0.5,
+      "acc": 0.5649
+    },
+    "per_skill_rate": {
+      "auc": 0.5786,
+      "acc": 0.5766
+    },
+    "student_skill_history": {
+      "auc": 0.7161,
+      "acc": 0.6592
+    },
+    "bkt_fitted": {
+      "auc": 0.77,
+      "acc": 0.7094
+    },
+    "bkt_true_params (oracle)": {
+      "auc": 0.7736,
+      "acc": 0.711
+    },
+    "dkt_lstm": {
+      "auc": 0.7653,
+      "acc": 0.7037
+    }
+  }
+}
